@@ -4,7 +4,7 @@ frontend:
   autoscaling:
     averageUtilization: 50
 backend:
-  image: ntops/backend:099f70c
+  image: ntops/backend:1ce4d79
   tag: latest
   autoscaling:
     averageUtilization: 50
