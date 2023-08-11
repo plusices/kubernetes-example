@@ -3,13 +3,11 @@ frontend:
   tag: latest
   autoscaling:
     averageUtilization: 50
-
 backend:
-  image: lyzhang1999/backend
+  image: ntops/backend:099f70c
   tag: latest
   autoscaling:
     averageUtilization: 50
-
 database:
   enabled: false
   uri: 10.10.10.10
